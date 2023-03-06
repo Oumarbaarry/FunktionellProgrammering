@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        DBConnection db = new DBConnection("root", "And1lover!");
+        DBConnection db = new DBConnection("root", "root");
         //Anropa DBConnection-klassen med användarnamn och lösenord och anslut.
         db.connectDB.connect();
 

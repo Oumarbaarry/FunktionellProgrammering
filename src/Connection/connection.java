@@ -11,7 +11,7 @@ public class connection {
 
         try (Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/Webbshop?serverTimezone=UTC&useSSL=false&allowPublicRetrieval=true",
-                "root", "*********");
+                "****", "*********");
              Statement stat = con.createStatement();
              ResultSet rs = stat.executeQuery("select id, namn, personnummer from kund")
         ){
